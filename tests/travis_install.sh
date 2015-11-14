@@ -22,6 +22,7 @@ if [[ "$DISTRIB" == "conda" ]]; then
     chmod +x miniconda.sh && ./miniconda.sh -b
     pwd
     export PATH=/home/travis/miniconda/bin:$PATH
+    echo $PATH
     conda update --yes conda
 
     # Configure the conda environment and put it in the path using the
