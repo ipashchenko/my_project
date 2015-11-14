@@ -21,7 +21,7 @@ if [[ "$DISTRIB" == "conda" ]]; then
         -O miniconda.sh
     chmod +x miniconda.sh && ./miniconda.sh -b
     pwd
-    export PATH=/home/travis/miniconda/bin:$PATH
+    export PATH=/home/travis/miniconda2/bin:$PATH
     echo $PATH
     cd /home/travis/
     ls
