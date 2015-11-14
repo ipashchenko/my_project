@@ -23,7 +23,7 @@ if [[ "$DISTRIB" == "conda" ]]; then
     pwd
     export PATH=/home/travis/miniconda/bin:$PATH
     echo $PATH
-    cd /home/travis/miniconda
+    cd /home/travis/
     ls
     conda update --yes conda
 
