@@ -10,7 +10,12 @@
 from __future__ import absolute_import, division, print_function
 
 import pytest
+import my_project
 
+
+def test_fib():
+    assert my_project.fib(1) == 1
+    
 
 def test_one():
     return True
