@@ -14,7 +14,7 @@ import my_project
 
 
 def test_fib():
-    assert my_project.fib(1) == 1
+    assert my_project.skeleton.fib(1) == 1
     
 
 def test_one():
