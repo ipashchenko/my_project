@@ -10,6 +10,7 @@ Description
 ===========
 
 A LONGER DESCRIPTION OF YOUR PROJECT GOES HERE...
+
 [![Build Status](https://img.shields.io/travis/ipashchenko/my_project.svg?style=flat-square)](https://travis-ci.org/ipashchenko/my_project)
 
 
