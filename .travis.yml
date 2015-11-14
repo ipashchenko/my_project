@@ -19,6 +19,8 @@ addons:
       - python-pip
 install:
   - source tests/travis_install.sh
+  - pwd
+  - ls
   - pip install -r requirements.txt
 before_script:
   - git config --global user.email "you@example.com"
